@@ -1,3 +1,15 @@
+/*
+after first iteration length=n
+after secont ineration length=n/2
+after k iteration length= n/2^k
+length after k iteration of  is =1
+n/2^k=1
+n=2^k
+log(base2)(n)=log(base2)(2^k)
+log(base2)(n)=k*log(base2)(2)
+k=log(base2)n
+O(log(base2)n)
+*/
 #include<iostream>
 using namespace std;
 int binarySearch(int arr[],int n,int key)
