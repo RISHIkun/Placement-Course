@@ -29,7 +29,7 @@ int binarySearch(int arr[],int n,int key)
     }
     else if (arr[mid]<key)
     {
-        e=mid+1;
+        s=mid+1;
     }
        
        
